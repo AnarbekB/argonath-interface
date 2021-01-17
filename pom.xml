@@ -6,7 +6,7 @@
 
     <groupId>ru.balmukanov</groupId>
     <artifactId>argonath-interface</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <properties>
         <java.version>11</java.version>

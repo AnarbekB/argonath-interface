@@ -10,6 +10,6 @@ struct Session {
     2: string jwt
 }
 
-service ProductMarketThriftService {
+service ArhonathThriftService {
     Session login(1:string phone, 2:string password, 3:string channel) throws (2:WrongPhoneOrPasswordException e),
 }
