@@ -63,7 +63,7 @@
                     <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
                     <branch>refs/heads/mvn-repo</branch>
                     <includes><include>**/*</include></includes>
-                    <repositoryName>product-market-interface</repositoryName>
+                    <repositoryName>argonath-interface</repositoryName>
                     <repositoryOwner>AnarbekB</repositoryOwner>
                     <merge>true</merge>
                 </configuration>
