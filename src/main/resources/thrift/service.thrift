@@ -50,4 +50,5 @@ service ArhonathThriftService {
     Session login(1:string phone, 2:string password, 3:string channel) throws (1:WrongPhoneOrPasswordException e),
     User registeration(1:RegisterUser dto) throws (1:UserAlreadyExistException e, 2:NotValidPhoneException en),
     void logout(1:string jwt, 2:Channel channel),
+    Session refresh(1: string jwt, 2:Channel channel),
 }
